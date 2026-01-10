@@ -69,3 +69,7 @@ python src/ingest.py
 
 6. Run the Application
 streamlit run src/app.py
+```
+⚠️ Disclaimer
+This tool is a prototype for educational and demonstration purposes only. It is not a substitute for professional tax or legal advice. Always consult a registered Tax Agent or R&D Consultant before making government claims.
+
