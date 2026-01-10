@@ -1,0 +1,27 @@
+# Core Framework
+langchain
+langchain-community
+langchain-core
+langchain-openai          # Required for ChatOpenAI
+langchain-huggingface     # Required for HuggingFaceEmbeddings
+langgraph                 # Required for the Agentic Workflow
+
+# Vector Database & Search
+chromadb
+sentence-transformers     # Required for local embeddings
+rank_bm25
+faiss-cpu
+tiktoken
+
+# Data Processing
+pypdf
+unstructured
+pandas
+pydantic                  # Required for data validation
+
+# App Interface
+streamlit                 # Required for the Web UI
+
+# Utilities
+python-dotenv
+ipykernel                 # For Notebooks
