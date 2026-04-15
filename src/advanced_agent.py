@@ -1,4 +1,7 @@
 import os
+from dotenv import load_dotenv
+
+load_dotenv()  # Load .env file (picks up OPENAI_API_KEY automatically)
 
 from typing import TypedDict, List
 from langchain_core.prompts import ChatPromptTemplate
